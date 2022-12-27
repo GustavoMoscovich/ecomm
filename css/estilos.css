@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+  body {
+    background: linear-gradient(rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.75)), url("../multimedia/fondo_html.jpg");
+  }
+
+.item_agregado {
+  background-color: aqua;
+  margin-bottom: 5px;
+}
