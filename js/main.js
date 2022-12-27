@@ -72,7 +72,7 @@ document.addEventListener('DOMContentLoaded', () => {
         baseDeDatos.forEach((info) => {
             // Define la estrucutra
             const miNuevoNodo = document.createElement('div');
-            miNuevoNodo.classList.add('card', 'col-sm-4');
+            miNuevoNodo.classList.add('card', 'col-sm-4', 'text-center', 'card_agregada');
             // Define el Body
             const miNuevoNodoCardBody = document.createElement('div');
             miNuevoNodoCardBody.classList.add('card-body');
