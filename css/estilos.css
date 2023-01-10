@@ -5,13 +5,9 @@
   padding: 0;
   box-sizing: border-box; }
 
-body {
-  isolation: isolate;
-  background-color: linear-gradient(rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.75)), url("../multimedia/pokemonfondo.jpg");
-}
-
 .darkmode-background {
-  background-color: linear-gradient(rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.75)), url("../multimedia/pokemonfondo.jpg");
+  
+  background: linear-gradient(rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.75)), url("../multimedia/pokemonfondo.jpg");
 }
 
   nav {
