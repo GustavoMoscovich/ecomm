@@ -1,0 +1,84 @@
+<!-- estructura basica del html -->
+<!DOCTYPE html>
+<html lang="es"> 
+<head>
+    <meta charset="UTF-8">
+    <title>Trabajo Ecommerce</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <!-- Mis Estilos -->
+    <link rel="stylesheet" href="../css/estilos.css">
+
+</head>
+<body class="normal_mode"> 
+    <!-- Navegacion -->
+    <nav class="navbar navbar-dark bg-dark">
+        <a class="navbar-brand brand" href="#">Aplicación eCommerce con JS</a>
+
+        <ul class="ul_MenuPrincipal">
+            <li> <a href="../index.html" class="a_MenuPrincipal">Principal</a></li>
+            <li> <a href="#" class="a_MenuPrincipal">Contacto</a></li>   
+        </ul>
+
+        <button id="logout">
+            Cerrar Sesión
+        </button>
+    </nav>
+
+
+    <main>
+        <h1 class="titulo_h1">Formulario de Contacto</h1>
+        <section>
+            <form class="contacto_form">
+                <p>Por Favor déjenos sus comentarios y los contactaremos a la brevedad</p>
+                <input type="text" maxlength="100" placeholder="Ingrese Su Nombre y Apellido" required>
+                <input type="email" maxlength="100" placeholder="Ingrese Su Mail" required>
+                <textarea name="comentario" id="" cols="30" rows="20"></textarea>
+                <label >Tipo de Contacto</label>
+                <select name="tipo_c" >
+                    <option value="con">Consulta</option>
+                    <option value="pos">Postulación</option>
+                    <option value="rec">Reclamo</option>
+                </select>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Restablecer">
+            </form>
+        </section>
+    </main>
+
+
+    <footer class="footer">
+        <!-- Pie de pagina -->
+        <p>Copyright 2023  --  Todos los derechos reservados</p>
+        <p>Av 9 de Julio 171 - CABA     Teléfono: +54 116 4521-1234     info@gm-sis.com.ar</p>
+
+
+        <div class="Redes_Sociales">
+            <a href="https://es-la.facebook.com/"  target="_blank">
+            <img src="../multimedia/icons8-facebook-nuevo-48.png" alt="ico_facebook" >
+            </a>
+        </div>
+
+        <div class="Whatsapp">
+            <a href="https://web.whatsapp.com/"  target="_blank" >
+            <img src="../multimedia/Whatsapp.PNG" alt="ico_whatsapp" >
+            </a>    
+        </div>
+
+
+    </footer>
+
+<!-- JavaScript BootStrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+<!-- JavaScript Modulo para DarkMode -->
+<script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+
+<!-- Mi JavaScript -->
+<script src="../js/contacto.js" type="module"></script>
+
+</body>
+</html>
