@@ -71,6 +71,12 @@
   background-color:darkgray ;
 }
 
+
+.darkmode--activated .ecommerce .card_agregada {
+  background-color: #191f3d;
+  color: white   ;
+}
+
 .encabezado {
   display: flex;
   align-items: center;
